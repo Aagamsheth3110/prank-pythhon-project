@@ -15,10 +15,11 @@ sleep(5)
 pygame.mixer.music.load('scary(1).mp4.mpeg')
 pygame.mixer.music.play()
 
-image = pygame.image.load('scr.jpg2.jpg')
+image = pygame.image.load('scr.jpg.jpg')
 window.blit(image, (0, 0))
 pygame.display.update()
-sleep(3)
+sleep(3) 
+
 
 
 
